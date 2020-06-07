@@ -24,7 +24,7 @@ The Back and Forward actions relative to a Tab are stored using a Stack data str
  - download <index_resource> - adds to the Priority Queue the resource with the specified index, from the current Web Page
  - wait <seconds> - advances the downloads' current stage with specified time
 
-**Example Usage:**<br />
+**Usage Example:**<br />
 ./CLIB in_file out_file<br /><br />
 *in_file:*<br />
 set_band 102400<br />
