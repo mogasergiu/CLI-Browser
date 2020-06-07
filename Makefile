@@ -3,7 +3,7 @@ CFLAGS = -Wall -Wextra -g
 
 build: CLIB
 
-tema2: stack.o queue.o utils.o main.o linked_list.o browser.o
+CLIB: stack.o queue.o utils.o main.o linked_list.o browser.o
 	$(CC) $(CFLAGS) $^ -o tema2
 
 main.o: main.c
