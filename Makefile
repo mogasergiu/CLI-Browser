@@ -1,7 +1,7 @@
 CC = gcc
 CFLAGS = -Wall -Wextra -g
 
-build: tema2
+build: CLIB
 
 tema2: stack.o queue.o utils.o main.o linked_list.o browser.o
 	$(CC) $(CFLAGS) $^ -o tema2
@@ -24,8 +24,8 @@ queue.o: queue.c
 utils.o: utils.c
 	$(CC) $(CFLAGS) $^ -c -o $@
 
-run: tema2
-	./tema2
+run: CLIB
+	./CLIB
 
 clean:
-	rm *.o tema2
+	rm *.o CLIB
