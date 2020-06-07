@@ -25,7 +25,7 @@ The Back and Forward actions relative to a Tab are stored using a Stack data str
  - wait <seconds> - advances the downloads' current stage with specified time
 
 **Example Usage:**<br />
-./CLIB in_file out_file
+./CLIB in_file out_file<br />
 *in_file:*<br />
 set_band 102400<br />
 goto URL1<br />
